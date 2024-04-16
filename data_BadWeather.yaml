@@ -1,0 +1,13 @@
+train: ../Helmet-Detection-DS4-1/train_badWeather/images
+val: ../Helmet-Detection-DS4-1/valid_badWeather/images
+test: ../Helmet-Detection-DS4-1/test_badWeather/images
+
+nc: 4
+names: ['Full', 'Half', 'Invalid', 'Not-wearing']
+
+roboflow:
+  workspace: data-science-3-5kybl
+  project: helmet-detection-ds4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/data-science-3-5kybl/helmet-detection-ds4/dataset/1
